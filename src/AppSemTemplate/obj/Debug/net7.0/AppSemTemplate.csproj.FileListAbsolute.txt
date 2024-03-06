@@ -11,6 +11,10 @@ C:\Projetos\ConhecimentosEssenciais\src\AppSemTemplate\bin\Debug\net7.0\AppSemTe
 C:\Projetos\ConhecimentosEssenciais\src\AppSemTemplate\bin\Debug\net7.0\Azure.Core.dll
 C:\Projetos\ConhecimentosEssenciais\src\AppSemTemplate\bin\Debug\net7.0\Azure.Identity.dll
 C:\Projetos\ConhecimentosEssenciais\src\AppSemTemplate\bin\Debug\net7.0\Humanizer.dll
+C:\Projetos\ConhecimentosEssenciais\src\AppSemTemplate\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Projetos\ConhecimentosEssenciais\src\AppSemTemplate\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Projetos\ConhecimentosEssenciais\src\AppSemTemplate\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Projetos\ConhecimentosEssenciais\src\AppSemTemplate\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.UI.dll
 C:\Projetos\ConhecimentosEssenciais\src\AppSemTemplate\bin\Debug\net7.0\Microsoft.AspNetCore.Razor.Language.dll
 C:\Projetos\ConhecimentosEssenciais\src\AppSemTemplate\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Projetos\ConhecimentosEssenciais\src\AppSemTemplate\bin\Debug\net7.0\Microsoft.Build.dll
@@ -34,6 +38,10 @@ C:\Projetos\ConhecimentosEssenciais\src\AppSemTemplate\bin\Debug\net7.0\Microsof
 C:\Projetos\ConhecimentosEssenciais\src\AppSemTemplate\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
 C:\Projetos\ConhecimentosEssenciais\src\AppSemTemplate\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
 C:\Projetos\ConhecimentosEssenciais\src\AppSemTemplate\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+C:\Projetos\ConhecimentosEssenciais\src\AppSemTemplate\bin\Debug\net7.0\Microsoft.Extensions.FileProviders.Embedded.dll
+C:\Projetos\ConhecimentosEssenciais\src\AppSemTemplate\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
+C:\Projetos\ConhecimentosEssenciais\src\AppSemTemplate\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Projetos\ConhecimentosEssenciais\src\AppSemTemplate\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
 C:\Projetos\ConhecimentosEssenciais\src\AppSemTemplate\bin\Debug\net7.0\Microsoft.Identity.Client.dll
 C:\Projetos\ConhecimentosEssenciais\src\AppSemTemplate\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
 C:\Projetos\ConhecimentosEssenciais\src\AppSemTemplate\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
@@ -234,6 +242,7 @@ C:\Projetos\ConhecimentosEssenciais\src\AppSemTemplate\obj\Debug\net7.0\AppSemTe
 C:\Projetos\ConhecimentosEssenciais\src\AppSemTemplate\obj\Debug\net7.0\AppSemTemplate.AssemblyInfoInputs.cache
 C:\Projetos\ConhecimentosEssenciais\src\AppSemTemplate\obj\Debug\net7.0\AppSemTemplate.AssemblyInfo.cs
 C:\Projetos\ConhecimentosEssenciais\src\AppSemTemplate\obj\Debug\net7.0\AppSemTemplate.csproj.CoreCompileInputs.cache
+C:\Projetos\ConhecimentosEssenciais\src\AppSemTemplate\obj\Debug\net7.0\AppSemTemplate.MvcApplicationPartsAssemblyInfo.cs
 C:\Projetos\ConhecimentosEssenciais\src\AppSemTemplate\obj\Debug\net7.0\AppSemTemplate.MvcApplicationPartsAssemblyInfo.cache
 C:\Projetos\ConhecimentosEssenciais\src\AppSemTemplate\obj\Debug\net7.0\AppSemTemplate.RazorAssemblyInfo.cache
 C:\Projetos\ConhecimentosEssenciais\src\AppSemTemplate\obj\Debug\net7.0\AppSemTemplate.RazorAssemblyInfo.cs
