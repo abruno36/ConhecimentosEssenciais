@@ -56,8 +56,7 @@ namespace AppSemTemplate.Controllers
 
         [ClaimsAuthorize("Produtos", "AD")]
         [HttpPost("criar-novo")]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> CriarNovoProduto([Bind("Id,Nome,Imagem,Valor")] Produto produto)
+        public async Task<IActionResult> CriarNovoProduto([Bind("Id,Nome,ImagemUpload,Valor")] Produto produto)
         {
             if (ModelState.IsValid)
             {
@@ -96,7 +95,7 @@ namespace AppSemTemplate.Controllers
         [ClaimsAuthorize("Produtos", "ED")]
         [HttpPost("editar-produto/{id}")]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Nome,Imagem,Valor")] Produto produto)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,Nome,ImagemUpload,Valor")] Produto produto)
         {
             if (id != produto.Id)
             {
