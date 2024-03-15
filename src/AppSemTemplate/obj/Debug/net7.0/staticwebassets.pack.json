@@ -593,6 +593,26 @@
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
+      "Id": "C:\\Projetos\\ConhecimentosEssenciais\\src\\AppSemTemplate\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Projetos\\ConhecimentosEssenciais\\src\\AppSemTemplate\\wwwroot\\lib\\jquery-validation\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Projetos\\ConhecimentosEssenciais\\src\\AppSemTemplate\\wwwroot\\lib\\jquery-validation\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Projetos\\ConhecimentosEssenciais\\src\\AppSemTemplate\\wwwroot\\lib\\jquery-validation\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Projetos\\ConhecimentosEssenciais\\src\\AppSemTemplate\\wwwroot\\lib\\jquery-validation\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\jquery.validate.min.js"
+    },
+    {
       "Id": "C:\\Projetos\\ConhecimentosEssenciais\\src\\AppSemTemplate\\wwwroot\\lib\\jquery\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\jquery.js"
     },

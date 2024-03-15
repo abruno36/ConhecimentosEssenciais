@@ -4,6 +4,7 @@
     <TargetFramework>net7.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>f32aabf0-c3b8-4280-a181-1d5585e7b6d0</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
@@ -11,7 +12,6 @@
     <Folder Include="Modulos\Produtos\Models\" />
     <Folder Include="Modulos\Vendas\Data\" />
     <Folder Include="Modulos\Vendas\Models\" />
-    <Folder Include="wwwroot\lib\" />
   </ItemGroup>
 
   <ItemGroup>
@@ -20,9 +20,14 @@
     <None Include="Views\Produtos\Details.cshtml" />
     <None Include="Views\Produtos\Edit.cshtml" />
     <None Include="Views\Produtos\Index.cshtml" />
+    <None Include="wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js" />
+    <None Include="wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js" />
   </ItemGroup>
 
   <ItemGroup>
+	  <PackageReference Include="Elmah.Io.AspNetCore" Version="5.0.56" />
+	  <PackageReference Include="Elmah.Io.AspNetCore.ExtensionsLogging" Version="5.0.43" />
+	  <PackageReference Include="Elmah.Io.Extensions.Logging" Version="5.0.43" />
 	  <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.16" />
 	  <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.16" />
 	  <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="7.0.16">

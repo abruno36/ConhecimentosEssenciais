@@ -1,8 +1,10 @@
 ﻿using AppSemTemplate.Data;
+using AppSemTemplate.Extensions;
 using AppSemTemplate.Services;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Razor;
 using Microsoft.EntityFrameworkCore;
+using System.Reflection;
 
 namespace AppSemTemplate.Configuration
 {
@@ -10,10 +12,22 @@ namespace AppSemTemplate.Configuration
     {
         public static WebApplicationBuilder AddMvcConfiguration(this WebApplicationBuilder builder)
         {
+            builder.Configuration
+                .SetBasePath(builder.Environment.ContentRootPath)
+                .AddJsonFile("appsettings.json", true, true)
+                .AddJsonFile($"appsettings.{builder.Environment.EnvironmentName}.json", true, true)
+                .AddEnvironmentVariables()
+                .AddUserSecrets(Assembly.GetExecutingAssembly(), true);
+
             builder.Services.AddControllersWithViews(options =>
             {
                 options.Filters.Add(new AutoValidateAntiforgeryTokenAttribute());
-            });
+                options.Filters.Add(typeof(FiltroAuditoria));
+
+                MvcOptionsConfig.ConfigurarMensagensDeModelBinding(options.ModelBindingMessageProvider);
+            })
+                .AddViewLocalization(LanguageViewLocationExpanderFormat.Suffix)
+                .AddDataAnnotationsLocalization(); 
 
             builder.Services.Configure<RazorViewEngineOptions>(options =>
             {
@@ -35,6 +49,9 @@ namespace AppSemTemplate.Configuration
                 options.ExcludedHosts.Add("www.example.com");
             });
 
+            builder.Services.Configure<ApiConfiguration>(
+                builder.Configuration.GetSection(ApiConfiguration.ConfigName));
+
             return builder;
         }
 
@@ -42,12 +59,19 @@ namespace AppSemTemplate.Configuration
         {
             if (app.Environment.IsDevelopment())
             {
-
+                app.UseDeveloperExceptionPage();
             }
             else
             {
+                app.UseExceptionHandler("/erro/500");
+                app.UseStatusCodePagesWithRedirects("/erro/{0}");
                 app.UseHsts();
             }
+
+            app.UseGlobalizationConfig();
+
+            app.UseElmahIo();
+            app.UseElmahIoExtensionsLogging();
 
             app.UseHttpsRedirection();
 

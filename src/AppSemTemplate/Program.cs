@@ -3,6 +3,8 @@ using AppSemTemplate.Configuration;
 var builder = WebApplication.CreateBuilder(args);
 
 builder
+    .AddGlobalizationConfig()
+    .AddElmahConfiguration()
     .AddMvcConfiguration()
     .AddIdentityConfiguration()
     .AddDependencyInjectionConfiguration();
