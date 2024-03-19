@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Projetos\\ConhecimentosEssenciais\\src\\AppSemTemplate\\wwwroot\\images\\29f467a1-4869-4ef4-882c-eecb60f1c5ac_ReactJS.jpg",
+      "PackagePath": "staticwebassets\\images\\29f467a1-4869-4ef4-882c-eecb60f1c5ac_ReactJS.jpg"
+    },
+    {
       "Id": "C:\\Projetos\\ConhecimentosEssenciais\\src\\AppSemTemplate\\wwwroot\\images\\CSS.jpg",
       "PackagePath": "staticwebassets\\images\\CSS.jpg"
     },
@@ -27,6 +31,38 @@
     {
       "Id": "C:\\Projetos\\ConhecimentosEssenciais\\src\\AppSemTemplate\\wwwroot\\images\\Razor.jpg",
       "PackagePath": "staticwebassets\\images\\Razor.jpg"
+    },
+    {
+      "Id": "C:\\Projetos\\ConhecimentosEssenciais\\src\\AppSemTemplate\\wwwroot\\images\\f9012eae-beaa-4958-b6de-bb5be3e7ae95_prod_HTML.jpg",
+      "PackagePath": "staticwebassets\\images\\f9012eae-beaa-4958-b6de-bb5be3e7ae95_prod_HTML.jpg"
+    },
+    {
+      "Id": "C:\\Projetos\\ConhecimentosEssenciais\\src\\AppSemTemplate\\wwwroot\\images\\logo_watermark.png",
+      "PackagePath": "staticwebassets\\images\\logo_watermark.png"
+    },
+    {
+      "Id": "C:\\Projetos\\ConhecimentosEssenciais\\src\\AppSemTemplate\\wwwroot\\images\\prod_29f467a1-4869-4ef4-882c-eecb60f1c5ac_ReactJS.jpg",
+      "PackagePath": "staticwebassets\\images\\prod_29f467a1-4869-4ef4-882c-eecb60f1c5ac_ReactJS.jpg"
+    },
+    {
+      "Id": "C:\\Projetos\\ConhecimentosEssenciais\\src\\AppSemTemplate\\wwwroot\\images\\prod_CSS.jpg",
+      "PackagePath": "staticwebassets\\images\\prod_CSS.jpg"
+    },
+    {
+      "Id": "C:\\Projetos\\ConhecimentosEssenciais\\src\\AppSemTemplate\\wwwroot\\images\\prod_HTML.jpg",
+      "PackagePath": "staticwebassets\\images\\prod_HTML.jpg"
+    },
+    {
+      "Id": "C:\\Projetos\\ConhecimentosEssenciais\\src\\AppSemTemplate\\wwwroot\\images\\prod_JQuery.jpg",
+      "PackagePath": "staticwebassets\\images\\prod_JQuery.jpg"
+    },
+    {
+      "Id": "C:\\Projetos\\ConhecimentosEssenciais\\src\\AppSemTemplate\\wwwroot\\images\\prod_Razor.jpg",
+      "PackagePath": "staticwebassets\\images\\prod_Razor.jpg"
+    },
+    {
+      "Id": "C:\\Projetos\\ConhecimentosEssenciais\\src\\AppSemTemplate\\wwwroot\\images\\prod_f9012eae-beaa-4958-b6de-bb5be3e7ae95_prod_HTML.jpg",
+      "PackagePath": "staticwebassets\\images\\prod_f9012eae-beaa-4958-b6de-bb5be3e7ae95_prod_HTML.jpg"
     },
     {
       "Id": "C:\\Projetos\\ConhecimentosEssenciais\\src\\AppSemTemplate\\wwwroot\\js\\cep.js",

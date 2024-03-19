@@ -276,3 +276,4 @@ C:\Projetos\ConhecimentosEssenciais\src\AppSemTemplate\obj\Debug\net7.0\AppSemTe
 C:\Projetos\ConhecimentosEssenciais\src\AppSemTemplate\obj\Debug\net7.0\es\AppSemTemplate.resources.dll
 C:\Projetos\ConhecimentosEssenciais\src\AppSemTemplate\obj\Debug\net7.0\AppSemTemplate.Resources.Views.Shared._SelectLanguagePartial.es.resources
 C:\Projetos\ConhecimentosEssenciais\src\AppSemTemplate\obj\Debug\net7.0\AppSemTemplate.Resources.Views.Produtos.Index.Shared._SelectLanguagePartial.en.resources
+C:\Projetos\ConhecimentosEssenciais\src\AppSemTemplate\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.InMemory.dll

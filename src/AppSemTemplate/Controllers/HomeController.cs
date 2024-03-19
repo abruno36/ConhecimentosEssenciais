@@ -26,6 +26,7 @@ namespace AppSemTemplate.Controllers
 
         }
 
+        [ResponseCache(Duration = 300, Location = ResponseCacheLocation.Any, NoStore = false)]
         public IActionResult Index()
         {
             Logger.LogInformation("Information");
@@ -41,9 +42,17 @@ namespace AppSemTemplate.Controllers
             var secret = apiConfig.UserSecret;
             var user = Configuration[$"{ApiConfiguration.ConfigName}:UserKey"];
 
-            ViewData["Message"] = _localizer["Seja bem vindo!"];
 
             var domain = ApiConfig.Domain;
+
+            ViewData["Message"] = _localizer["Seja bem vindo!"];
+
+            ViewData["Horario"] = DateTime.Now;
+
+            if (Request.Cookies.TryGetValue("MeuCookie", out string? cookieValue))
+            {
+                ViewData["MeuCookie"] = cookieValue;
+            }
 
             return View();
         }
@@ -58,6 +67,19 @@ namespace AppSemTemplate.Controllers
             );
 
             return LocalRedirect(returnUrl);
+        }
+
+        [Route("cookies")]
+        public IActionResult Cookie()
+        {
+            var cookieOptions = new CookieOptions
+            {
+                Expires = DateTime.Now.AddHours(1)
+            };
+
+            Response.Cookies.Append("MeuCookie", "Dados do Cookie", cookieOptions);
+
+            return View();
         }
 
         [Route("teste")]

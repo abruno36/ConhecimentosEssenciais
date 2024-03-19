@@ -14,12 +14,21 @@
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "7.0.16",
           "Microsoft.AspNetCore.Identity.UI": "7.0.16",
           "Microsoft.EntityFrameworkCore": "7.0.16",
+          "Microsoft.EntityFrameworkCore.InMemory": "7.0.16",
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.16",
           "Microsoft.EntityFrameworkCore.Tools": "7.0.16",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "7.0.12"
         },
         "runtime": {
           "AppSemTemplate.dll": {}
+        },
+        "resources": {
+          "en/AppSemTemplate.resources.dll": {
+            "locale": "en"
+          },
+          "es/AppSemTemplate.resources.dll": {
+            "locale": "es"
+          }
         }
       },
       "Azure.Core/1.35.0": {
@@ -1304,6 +1313,17 @@
         },
         "runtime": {
           "lib/net6.0/Microsoft.EntityFrameworkCore.Design.dll": {
+            "assemblyVersion": "7.0.16.0",
+            "fileVersion": "7.0.1624.6616"
+          }
+        }
+      },
+      "Microsoft.EntityFrameworkCore.InMemory/7.0.16": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "7.0.16"
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.EntityFrameworkCore.InMemory.dll": {
             "assemblyVersion": "7.0.16.0",
             "fileVersion": "7.0.1624.6616"
           }
@@ -3323,6 +3343,13 @@
       "sha512": "sha512-Z5Ra/VP8JfWPHE/3Ix0WzTlupk0KDhlCuUTOdUWREg1JpWpk8B8k7i3dX5TOLkAIvFfph1F3KT/5+sspuJtiEg==",
       "path": "microsoft.entityframeworkcore.design/7.0.16",
       "hashPath": "microsoft.entityframeworkcore.design.7.0.16.nupkg.sha512"
+    },
+    "Microsoft.EntityFrameworkCore.InMemory/7.0.16": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-bOTD3rtZVF0zbVYFqqV2Ne9822tJdyPjO98ebRFl8v48+0u0xZ8fLV1cIcJmhv46ikarT5nDVchTzdhfg3wlZw==",
+      "path": "microsoft.entityframeworkcore.inmemory/7.0.16",
+      "hashPath": "microsoft.entityframeworkcore.inmemory.7.0.16.nupkg.sha512"
     },
     "Microsoft.EntityFrameworkCore.Relational/7.0.16": {
       "type": "package",

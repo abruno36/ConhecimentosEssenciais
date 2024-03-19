@@ -19,6 +19,8 @@ namespace AppSemTemplate.Configuration
                 .AddEnvironmentVariables()
                 .AddUserSecrets(Assembly.GetExecutingAssembly(), true);
 
+            builder.Services.AddResponseCaching();
+
             builder.Services.AddControllersWithViews(options =>
             {
                 options.Filters.Add(new AutoValidateAntiforgeryTokenAttribute());
@@ -27,7 +29,14 @@ namespace AppSemTemplate.Configuration
                 MvcOptionsConfig.ConfigurarMensagensDeModelBinding(options.ModelBindingMessageProvider);
             })
                 .AddViewLocalization(LanguageViewLocationExpanderFormat.Suffix)
-                .AddDataAnnotationsLocalization(); 
+                .AddDataAnnotationsLocalization();
+
+            builder.Services.Configure<CookiePolicyOptions>(options =>
+            {
+                options.CheckConsentNeeded = context => true;
+                options.MinimumSameSitePolicy = SameSiteMode.None;
+                options.ConsentCookieValue = "true";
+            });
 
             builder.Services.Configure<RazorViewEngineOptions>(options =>
             {
@@ -52,6 +61,8 @@ namespace AppSemTemplate.Configuration
             builder.Services.Configure<ApiConfiguration>(
                 builder.Configuration.GetSection(ApiConfiguration.ConfigName));
 
+            builder.Services.AddHostedService<ImageWatermarkService>();
+
             return builder;
         }
 
@@ -68,6 +79,8 @@ namespace AppSemTemplate.Configuration
                 app.UseHsts();
             }
 
+            app.UseResponseCaching();
+
             app.UseGlobalizationConfig();
 
             app.UseElmahIo();
@@ -76,6 +89,8 @@ namespace AppSemTemplate.Configuration
             app.UseHttpsRedirection();
 
             app.UseStaticFiles();
+
+            app.UseCookiePolicy();
 
             app.UseRouting();
 
