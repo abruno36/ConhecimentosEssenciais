@@ -116,7 +116,7 @@ namespace AppSemTemplate.Controllers
                     if (produto.ImagemUpload != null)
                     {
                         var imgPrefixo = Guid.NewGuid() + "_";
-                        if (!await UploadArquivo(produto.ImagemUpload, imgPrefixo))
+                        if (!await _imageUploadService.UploadArquivo(ModelState, produto.ImagemUpload, imgPrefixo))
                         {
                             return View(produto);
                         }

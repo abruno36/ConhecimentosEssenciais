@@ -53,8 +53,10 @@ namespace Testes
             var mockContext = new Mock<HttpContext>();
             mockContext.Setup(c => c.User).Returns(principal);
 
+            var imgService = new Mock<IImageUploadService>();
+
             // Controller
-            var controller = new ProdutosController(ctx)
+            var controller = new ProdutosController(ctx, imgService.Object)
             {
                 ControllerContext = new ControllerContext
                 {
