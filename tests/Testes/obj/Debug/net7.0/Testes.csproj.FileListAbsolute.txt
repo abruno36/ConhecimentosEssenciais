@@ -48,6 +48,7 @@ C:\Projetos\ConhecimentosEssenciais\tests\Testes\bin\Debug\net7.0\Microsoft.DiaS
 C:\Projetos\ConhecimentosEssenciais\tests\Testes\bin\Debug\net7.0\Microsoft.DotNet.Scaffolding.Shared.dll
 C:\Projetos\ConhecimentosEssenciais\tests\Testes\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
 C:\Projetos\ConhecimentosEssenciais\tests\Testes\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Projetos\ConhecimentosEssenciais\tests\Testes\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.InMemory.dll
 C:\Projetos\ConhecimentosEssenciais\tests\Testes\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
 C:\Projetos\ConhecimentosEssenciais\tests\Testes\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
 C:\Projetos\ConhecimentosEssenciais\tests\Testes\bin\Debug\net7.0\Microsoft.Extensions.FileProviders.Embedded.dll
@@ -339,4 +340,4 @@ C:\Projetos\ConhecimentosEssenciais\tests\Testes\obj\Debug\net7.0\refint\Testes.
 C:\Projetos\ConhecimentosEssenciais\tests\Testes\obj\Debug\net7.0\Testes.pdb
 C:\Projetos\ConhecimentosEssenciais\tests\Testes\obj\Debug\net7.0\Testes.genruntimeconfig.cache
 C:\Projetos\ConhecimentosEssenciais\tests\Testes\obj\Debug\net7.0\ref\Testes.dll
-C:\Projetos\ConhecimentosEssenciais\tests\Testes\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.InMemory.dll
+c:\Projetos\ConhecimentosEssenciais\tests\Testes\bin\Debug\net7.0\appsettings.Docker.json

@@ -1,4 +1,5 @@
 ﻿using AppSemTemplate.Models;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
@@ -12,5 +13,5 @@ namespace AppSemTemplate.Data
         }
 
         public DbSet<Produto> Produtos { get; set; }
-    }
+    }   
 }

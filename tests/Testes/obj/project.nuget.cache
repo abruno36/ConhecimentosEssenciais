@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "hn8x/64PQEC/xWGmD8WNIENCGGTiX7pJACdFmwAvASFWK/6C+44q2qtFQ0ONriDN57jvB3ZqvfE5ZpMGUDkX7g==",
+  "dgSpecHash": "3IcAonNS6jtAvoxM0S6u2M6Ii219sF2txUA1dArS/GfskOo7WR9HGpKlyBFWZnTTbwcZRfjAlceMO+ejPKYGCQ==",
   "success": true,
   "projectFilePath": "C:\\Projetos\\ConhecimentosEssenciais\\tests\\Testes\\Testes.csproj",
   "expectedPackageFiles": [
@@ -132,6 +132,7 @@
     "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.sqlserver.server\\1.0.0\\microsoft.sqlserver.server.1.0.0.nupkg.sha512",
     "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.testplatform.objectmodel\\17.5.0\\microsoft.testplatform.objectmodel.17.5.0.nupkg.sha512",
     "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.testplatform.testhost\\17.5.0\\microsoft.testplatform.testhost.17.5.0.nupkg.sha512",
+    "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.18.1\\microsoft.visualstudio.azure.containers.tools.targets.1.18.1.nupkg.sha512",
     "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration\\7.0.12\\microsoft.visualstudio.web.codegeneration.7.0.12.nupkg.sha512",
     "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration.core\\7.0.12\\microsoft.visualstudio.web.codegeneration.core.7.0.12.nupkg.sha512",
     "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration.design\\7.0.12\\microsoft.visualstudio.web.codegeneration.design.7.0.12.nupkg.sha512",

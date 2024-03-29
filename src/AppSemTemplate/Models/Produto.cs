@@ -21,6 +21,7 @@ namespace AppSemTemplate.Models
 
         [Moeda]
         [Required(ErrorMessage = "O campo {0} é obrigatório")]
+        [Column(TypeName = "decimal(18,2)")]
         public decimal Valor { get; set; }
 
         public bool Processado { get; set; }
